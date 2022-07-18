@@ -161,3 +161,7 @@ if you want to upgrade the version for or2ywtool
     $ or2yw -i or2ywtool/test.json -o testa.png -ot png
 
    If processing `or2ywtool/test.json` with 200 operations takes a long time, you may try `or2ywtool/test_small.json` with 100 opearations.
+   
+   Or there is another type "merge" that you can try to group the same subsequent operation from parallel graph into one sub-workflow.
+   
+    $ or2yw -i or2ywtool/test.json -o testa.png -ot png -t merge   
